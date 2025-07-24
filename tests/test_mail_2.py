@@ -5,8 +5,8 @@ import pytest
 def set_up():
     print("Logged in")
 
-def test_sending_mail_1(set_up):
+def test_sending_mail_1():
     print("Mail sending")
 
-def test_sending_mail_2(set_up):
+def test_sending_mail_2():
     print("Mail sending")
